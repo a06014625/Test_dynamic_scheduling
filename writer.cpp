@@ -26,7 +26,7 @@ void Write(){
 
     while(1){
         printf("Please input: \n");
-        #scanf("%s", buf);
+        //scanf("%s", buf);
         char buf[] = "send form cpp........."
 
         int ret = write(fd, buf, strlen(buf) + 1);
